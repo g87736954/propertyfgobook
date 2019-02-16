@@ -14,6 +14,11 @@
 		CE295F762215328200932599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE295F742215328200932599 /* LaunchScreen.storyboard */; };
 		CE295F812215328200932599 /* propertyfgobookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE295F802215328200932599 /* propertyfgobookTests.swift */; };
 		CE295F8C2215328200932599 /* propertyfgobookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE295F8B2215328200932599 /* propertyfgobookUITests.swift */; };
+		CE295F9A22154FF100932599 /* ProTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE295F9922154FF100932599 /* ProTableViewController.swift */; };
+		CE295F9E2215504900932599 /* ServenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE295F9D2215504900932599 /* ServenViewController.swift */; };
+		CEEF4ECA2217D1370060E4BD /* Pro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF4EC92217D1370060E4BD /* Pro.swift */; };
+		CEEF4ECC2217D4050060E4BD /* ProTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF4ECB2217D4050060E4BD /* ProTableViewCell.swift */; };
+		CEEF4ED022184B6F0060E4BD /* CVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF4ECF22184B6F0060E4BD /* CVViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		CE295F872215328200932599 /* propertyfgobookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = propertyfgobookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE295F8B2215328200932599 /* propertyfgobookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = propertyfgobookUITests.swift; sourceTree = "<group>"; };
 		CE295F8D2215328200932599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE295F9922154FF100932599 /* ProTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTableViewController.swift; sourceTree = "<group>"; };
+		CE295F9D2215504900932599 /* ServenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServenViewController.swift; sourceTree = "<group>"; };
+		CEEF4EC92217D1370060E4BD /* Pro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pro.swift; sourceTree = "<group>"; };
+		CEEF4ECB2217D4050060E4BD /* ProTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProTableViewCell.swift; sourceTree = "<group>"; };
+		CEEF4ECF22184B6F0060E4BD /* CVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				CE295F6B2215327F00932599 /* AppDelegate.swift */,
 				CE295F6D2215327F00932599 /* ViewController.swift */,
 				CE295F6F2215327F00932599 /* Main.storyboard */,
+				CE295F9922154FF100932599 /* ProTableViewController.swift */,
+				CEEF4ECB2217D4050060E4BD /* ProTableViewCell.swift */,
+				CE295F9D2215504900932599 /* ServenViewController.swift */,
+				CEEF4ECF22184B6F0060E4BD /* CVViewController.swift */,
+				CEEF4EC92217D1370060E4BD /* Pro.swift */,
 				CE295F722215328200932599 /* Assets.xcassets */,
 				CE295F742215328200932599 /* LaunchScreen.storyboard */,
 				CE295F772215328200932599 /* Info.plist */,
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEF4ED022184B6F0060E4BD /* CVViewController.swift in Sources */,
 				CE295F6E2215327F00932599 /* ViewController.swift in Sources */,
+				CE295F9A22154FF100932599 /* ProTableViewController.swift in Sources */,
+				CEEF4ECC2217D4050060E4BD /* ProTableViewCell.swift in Sources */,
+				CEEF4ECA2217D1370060E4BD /* Pro.swift in Sources */,
 				CE295F6C2215327F00932599 /* AppDelegate.swift in Sources */,
+				CE295F9E2215504900932599 /* ServenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
